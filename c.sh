@@ -1,10 +1,9 @@
-#!/bin/bash
-
+#!/bin/bash 
 # Cloudflare API details
-auth_email="sydjwd92@gmail.com"                     # Your Cloudflare email
-auth_key="ab1ca6a961ce2fb2b4f1301f70e9afccdf05c"    # Your Global API Key
-zone_identifier="f2a8fae655d97d06580123f16a7cb7b9"  # Zone ID for your domain
-record_name="yyy.inters.site"                       # DNS record to update
+auth_email="Email"                                  # Your Cloudflare email
+auth_key="Token"                                    # Your Global API Key
+zone_identifier="ZoneID"                            # Zone ID for your domain
+record_name="Domain"                                # DNS record to update
 ttl=3600                                            # DNS TTL (in seconds)
 proxy="false"                                       # Whether the Cloudflare proxy is enabled (true/false)
 
